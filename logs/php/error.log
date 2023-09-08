@@ -1,0 +1,46 @@
+[07-Sep-2023 10:26:40 UTC] PHP Deprecated:  Creation of dynamic property User_Command::$fetcher is deprecated in phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/entity-command/src/User_Command.php on line 54
+[07-Sep-2023 10:26:40 UTC] PHP Deprecated:  Creation of dynamic property User_Command::$sitefetcher is deprecated in phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/entity-command/src/User_Command.php on line 55
+[07-Sep-2023 10:26:40 UTC] PHP Deprecated:  Return type of WP_CLI\Iterators\Transform::current() should either be compatible with IteratorIterator::current(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Iterators/Transform.php on line 18
+[07-Sep-2023 10:30:40 UTC] PHP Warning:  Attempt to read property "title" on null in /home/safet/Local Sites/udemy/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[07-Sep-2023 11:02:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function blog_info() in /home/safet/Local Sites/udemy/app/public/wp-content/themes/udemy/index.php:5
+Stack trace:
+#0 /home/safet/Local Sites/udemy/app/public/wp-includes/template-loader.php(106): include()
+#1 /home/safet/Local Sites/udemy/app/public/wp-blog-header.php(19): require_once('/home/safet/Loc...')
+#2 /home/safet/Local Sites/udemy/app/public/index.php(17): require('/home/safet/Loc...')
+#3 {main}
+  thrown in /home/safet/Local Sites/udemy/app/public/wp-content/themes/udemy/index.php on line 5
+[07-Sep-2023 11:02:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function blog_info() in /home/safet/Local Sites/udemy/app/public/wp-content/themes/udemy/index.php:5
+Stack trace:
+#0 /home/safet/Local Sites/udemy/app/public/wp-includes/template-loader.php(106): include()
+#1 /home/safet/Local Sites/udemy/app/public/wp-blog-header.php(19): require_once('/home/safet/Loc...')
+#2 /home/safet/Local Sites/udemy/app/public/index.php(17): require('/home/safet/Loc...')
+#3 {main}
+  thrown in /home/safet/Local Sites/udemy/app/public/wp-content/themes/udemy/index.php on line 5
+[07-Sep-2023 11:02:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function blog_info() in /home/safet/Local Sites/udemy/app/public/wp-content/themes/udemy/index.php:5
+Stack trace:
+#0 /home/safet/Local Sites/udemy/app/public/wp-includes/template-loader.php(106): include()
+#1 /home/safet/Local Sites/udemy/app/public/wp-blog-header.php(19): require_once('/home/safet/Loc...')
+#2 /home/safet/Local Sites/udemy/app/public/index.php(17): require('/home/safet/Loc...')
+#3 {main}
+  thrown in /home/safet/Local Sites/udemy/app/public/wp-content/themes/udemy/index.php on line 5
+[07-Sep-2023 11:02:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function blog_info() in /home/safet/Local Sites/udemy/app/public/wp-content/themes/udemy/index.php:5
+Stack trace:
+#0 /home/safet/Local Sites/udemy/app/public/wp-includes/template-loader.php(106): include()
+#1 /home/safet/Local Sites/udemy/app/public/wp-blog-header.php(19): require_once('/home/safet/Loc...')
+#2 /home/safet/Local Sites/udemy/app/public/index.php(17): require('/home/safet/Loc...')
+#3 {main}
+  thrown in /home/safet/Local Sites/udemy/app/public/wp-content/themes/udemy/index.php on line 5
+[07-Sep-2023 14:13:25 UTC] PHP Notice:  Error when decoding a JSON file at path /home/safet/Local Sites/udemy/app/public/wp-content/themes/udemy/theme.json: Syntax error in /home/safet/Local Sites/udemy/app/public/wp-includes/functions.php on line 4573
+[07-Sep-2023 14:13:25 UTC] PHP Notice:  Error when decoding a JSON file at path /home/safet/Local Sites/udemy/app/public/wp-content/themes/udemy/theme.json: Syntax error in /home/safet/Local Sites/udemy/app/public/wp-includes/functions.php on line 4573
+[07-Sep-2023 14:13:25 UTC] PHP Notice:  Error when decoding a JSON file at path /home/safet/Local Sites/udemy/app/public/wp-content/themes/udemy/theme.json: Syntax error in /home/safet/Local Sites/udemy/app/public/wp-includes/functions.php on line 4573
+[07-Sep-2023 14:13:46 UTC] PHP Notice:  Error when decoding a JSON file at path /home/safet/Local Sites/udemy/app/public/wp-content/themes/udemy/theme.json: Syntax error in /home/safet/Local Sites/udemy/app/public/wp-includes/functions.php on line 4573
+[07-Sep-2023 14:13:47 UTC] PHP Notice:  Error when decoding a JSON file at path /home/safet/Local Sites/udemy/app/public/wp-content/themes/udemy/theme.json: Syntax error in /home/safet/Local Sites/udemy/app/public/wp-includes/functions.php on line 4573
+[07-Sep-2023 14:13:48 UTC] PHP Notice:  Error when decoding a JSON file at path /home/safet/Local Sites/udemy/app/public/wp-content/themes/udemy/theme.json: Syntax error in /home/safet/Local Sites/udemy/app/public/wp-includes/functions.php on line 4573
+[07-Sep-2023 14:14:46 UTC] PHP Notice:  Error when decoding a JSON file at path /home/safet/Local Sites/udemy/app/public/wp-content/themes/udemy/theme.json: Syntax error in /home/safet/Local Sites/udemy/app/public/wp-includes/functions.php on line 4573
+[07-Sep-2023 16:48:03 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /home/safet/Local Sites/udemy/app/public/wp-includes/class-wpdb.php on line 2035
+[07-Sep-2023 16:48:07 UTC] PHP Deprecated:  Creation of dynamic property User_Command::$fetcher is deprecated in phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/entity-command/src/User_Command.php on line 54
+[07-Sep-2023 16:48:07 UTC] PHP Deprecated:  Creation of dynamic property User_Command::$sitefetcher is deprecated in phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/entity-command/src/User_Command.php on line 55
+[07-Sep-2023 16:48:07 UTC] PHP Deprecated:  Return type of WP_CLI\Iterators\Transform::current() should either be compatible with IteratorIterator::current(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Iterators/Transform.php on line 18
+[08-Sep-2023 07:55:56 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/safet/Local Sites/udemy/app/public/wp-includes/update.php on line 205
+[08-Sep-2023 07:55:56 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/safet/Local Sites/udemy/app/public/wp-includes/update.php on line 443
+[08-Sep-2023 07:55:56 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/safet/Local Sites/udemy/app/public/wp-includes/update.php on line 724
